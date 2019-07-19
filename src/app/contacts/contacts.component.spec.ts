@@ -1,12 +1,12 @@
 import { ContactsComponent } from '../contacts/contacts.component';
-// import { Contact } from '../contacts/shared/models';
+import { Contact } from '../contacts/shared/models';
 
-// describe('ContactsComponent Tests', () => {
+describe('ContactsComponent Tests', () => {
 
-//     it('Should be a basic testing shell', () => {
+    it('Should be a basic testing shell', () => {
 
-//         expect(true).toBe(true);
+        expect(true).toBe(true);
 
-//     });
+    });
 
-// });
+});
