@@ -8,7 +8,9 @@ import { Contact } from './shared/';
   styleUrls: ['./contacts.component.css']
 })
 export class ContactsComponent {
+
   contacts: Contact[] = [];
 
   constructor() {}
+
 }
