@@ -1,4 +1,4 @@
-// TODO Page 30 is next
+/* TODO: This is a test. */
 
 import { ContactsComponent } from './contacts.component';
 import { Contact } from './shared/models';
