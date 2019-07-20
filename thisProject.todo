@@ -1,0 +1,22 @@
+Finish the Book, Testing Angular Components:
+    Part 0:
+        Chapter 01 - Introduction to Testing Angular Applications:
+            ☐ Revisit
+    Part 1 - Unit Testing:
+        Chapter 02 - Creating Your First Tests:
+            ☐ Revisit
+        Chapter 03 - Testing Components:
+            ☐ Go to Page 30
+            ☐ ContactEditComponent
+        Chapter 04 - Testing Directives:
+            ☐ A
+        Chapter 05 - Testing Pipes:
+            ☐ A
+        Chapter 06 - Testing Services:
+        Chapter 07 - Testing the Router:
+    Part 2 - End to End Testing:
+        Chapter 08 - Getting Started with Protractor:
+        Chapter 09 - Understanding Timeouts:
+        Chapter 10 - Advanced Protractor Topics:
+    Part 3 - Continuous Integration:
+        Chapter 11 - Continuous Integration:
