@@ -7,7 +7,11 @@ Finish the Book, Testing Angular Components:
             ☐ Revisit
         Chapter 03 - Testing Components:
             ☐ Go to Page 30
-            ☐ ContactEditComponent
+                ☐ ContactEditComponent
+                ☐ DebugElement Explanation
+                ☐ NoopAnimationsModule Explanation
+                ☐ BrowserDynamicTestingModule Explanation
+                ☐ RouterTestingModule Explanation
         Chapter 04 - Testing Directives:
             ☐ A
         Chapter 05 - Testing Pipes:
@@ -20,3 +24,6 @@ Finish the Book, Testing Angular Components:
         Chapter 10 - Advanced Protractor Topics:
     Part 3 - Continuous Integration:
         Chapter 11 - Continuous Integration:
+
+Today I learned about:
+    ☐ Github's automated security feature 072219
