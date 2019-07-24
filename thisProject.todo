@@ -8,10 +8,11 @@ Finish the Book, Testing Angular Components:
         Chapter 03 - Testing Components:
             ☐ Go to Page 30
                 ☐ ContactEditComponent
-                ☐ DebugElement Explanation
-                ☐ NoopAnimationsModule Explanation
-                ☐ BrowserDynamicTestingModule Explanation
-                ☐ RouterTestingModule Explanation
+                    ✔ DebugElement Explanation @done (7/24/2019, 11:10:51 AM)
+                    ✔ - /src/app/contacts/contact-edit/contact-edit.component.spec.ts, line 1 @done (7/24/2019, 11:11:29 AM)
+                    ☐ NoopAnimationsModule Explanation
+                    ☐ BrowserDynamicTestingModule Explanation
+                    ☐ RouterTestingModule Explanation
         Chapter 04 - Testing Directives:
             ☐ A
         Chapter 05 - Testing Pipes:

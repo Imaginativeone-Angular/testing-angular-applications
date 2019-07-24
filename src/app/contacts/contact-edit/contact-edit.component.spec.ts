@@ -1,4 +1,8 @@
 import { DebugElement } from '@angular/core';
+// You can use DebugElement to inspect an element during testing.
+// You can think of it as the native HTMLElement with additional methods and properties
+//   that can be useful for debugging elements
+
 import { ComponentFixture, fakeAsync, TestBed, tick } from '@angular/core/testing';
 
 // TestBed | You use this class to set up and configure your tests
