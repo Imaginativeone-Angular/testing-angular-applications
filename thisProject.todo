@@ -6,13 +6,21 @@ Finish the Book, Testing Angular Components:
         Chapter 02 - Creating Your First Tests:
             ☐ Revisit
         Chapter 03 - Testing Components:
-            ☐ Go to Page 30
+            ☐ 3.2.1 Importing the Dependencies
+                ☐ Go to Page 30
                 ☐ ContactEditComponent
                     ✔ DebugElement Explanation @done (7/24/2019, 11:10:51 AM)
                     ✔ - /src/app/contacts/contact-edit/contact-edit.component.spec.ts, line 1 @done (7/24/2019, 11:11:29 AM)
-                    ☐ NoopAnimationsModule Explanation
-                    ☐ BrowserDynamicTestingModule Explanation
-                    ☐ RouterTestingModule Explanation
+                    ✔ NoopAnimationsModule Explanation @done (7/25/2019, 8:21:02 AM)
+                    ✔ BrowserDynamicTestingModule Explanation @done (7/25/2019, 8:22:54 AM)
+                    ✔ RouterTestingModule Explanation @done (7/25/2019, 8:25:25 AM)
+                    ☐ Angular Nontesting Module Statement
+                        ✔ FormsModule @done (7/25/2019, 8:31:13 AM)
+                    ☐ Remaining Dependency Statements
+                        ☐ Page 32
+                        ☐ A
+            ☐ 3.2.2 Setting Up the Tests
+            ☐ 3.2.3 Adding the Tests
         Chapter 04 - Testing Directives:
             ☐ A
         Chapter 05 - Testing Pipes:

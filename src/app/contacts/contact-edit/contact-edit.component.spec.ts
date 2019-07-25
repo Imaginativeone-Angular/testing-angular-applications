@@ -4,6 +4,10 @@ import { DebugElement } from '@angular/core';
 //   that can be useful for debugging elements
 
 import { ComponentFixture, fakeAsync, TestBed, tick } from '@angular/core/testing';
+// ComponentFixture | You can find this class in the @angular/core module.
+// You can use it to create a fixture that you then can use for debugging.
+
+// fakeAsync | Using fakeAsync ensures that all synchronous tasks are completed before executing the assertions
 
 // TestBed | You use this class to set up and configure your tests
 // - configureTestingModule
@@ -11,7 +15,9 @@ import { ComponentFixture, fakeAsync, TestBed, tick } from '@angular/core/testin
 // - createComponent
 // - https://angular.io/api/core/testing/TestBed
 
-// fakeAsync | Using fakeAsync ensures that all synchronous tasks are completed before executing the assertions
+// tick | You can use tick to simulate the passage of time.
+// It accepts one parameter, which is the number of milliseconds to move time forward.
+// If you don't provide a parameter, tick defaults to zero milliseconds.
 
 import { By } from '@angular/platform-browser';
 // By | is a class included in the @angular/platform-browser module, that you can use to select DOM elements
@@ -23,5 +29,17 @@ import { By } from '@angular/platform-browser';
 // In total, By provides three methods: all, css, directive
 
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+// NoopAnimationsModule | You use the NoopAnimationsModule class to mock animations, 
+// which allows tests to run quickly without waiting for the animations to finish.
+
 import { BrowserDynamicTestingModule } from '@angular/platform-browser-dynamic/testing';
+// BrowserDynamicTestingModule | is a module that helps bootstrap the browser to be used for testing.
+
 import { RouterTestingModule } from '@angular/router/testing';
+// As the name implies, you can use RouterTestingModule to set up routing for testing.
+// We include it with the tests for this component because some of the actions will involve changing routes.
+
+import { FormsModule } from '@angular/forms';
+// You only need to import one Angular nontesting module FormsModule.
+// You'll need this module because the ContactsEdit uses it for some Angular form controls.
+
