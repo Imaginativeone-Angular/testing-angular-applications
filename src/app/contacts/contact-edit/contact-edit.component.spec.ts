@@ -62,10 +62,30 @@ describe('ContactEditComponent', () => {
     let rootElement: DebugElement;
     // Stores the DebugElement for your component, which is how you'll access its children.
 
+    const contactServiceStub = {
+
+        contact: { 
+            id: 1, 
+            name: 'janet'
+        },
+
+        save: async function(contact: Contact) {
+            component.contact = contact;
+        },
+
+        getContact: async function() {
+            component.contact = this.contact;
+            return this.contact;
+        },
+
+        updateContact: async function(contact: Contact) {
+            component.contact = contact;
+        },
+
+    };
+
     it('A', () => {
-
         expect(1).toEqual(1);
-
     });
 
 });
