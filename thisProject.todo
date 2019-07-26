@@ -24,6 +24,10 @@ Finish the Book, Testing Angular Components:
                         ✔ InvalidEmailModalComponent @done (7/26/2019, 7:36:05 AM)
                         ✔ InvalidPhoneNumberModalComponent @done (7/26/2019, 7:36:07 AM)
             ☐ 3.2.2 Setting Up the Tests
+                ✔ First Steps @done (7/26/2019, 7:54:51 AM)
+                ☐ Faking ContactService
+                ☐ The first beforeEach
+                ☐ The second beforeEach
             ☐ 3.2.3 Adding the Tests
         Chapter 04 - Testing Directives:
             ☐ A
@@ -40,3 +44,4 @@ Finish the Book, Testing Angular Components:
 
 Today I learned about:
     ☐ Github's automated security feature 072219
+    import '../../../material-app-theme.scss'; // There's a problem with finding this file.
