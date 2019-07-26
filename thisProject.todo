@@ -25,7 +25,7 @@ Finish the Book, Testing Angular Components:
                         ✔ InvalidPhoneNumberModalComponent @done (7/26/2019, 7:36:07 AM)
             ☐ 3.2.2 Setting Up the Tests
                 ✔ First Steps @done (7/26/2019, 7:54:51 AM)
-                ☐ Faking ContactService
+                ✔ Faking ContactService @done (7/26/2019, 11:31:58 AM)
                 ☐ The first beforeEach
                 ☐ The second beforeEach
             ☐ 3.2.3 Adding the Tests
