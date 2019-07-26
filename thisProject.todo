@@ -17,8 +17,12 @@ Finish the Book, Testing Angular Components:
                     ☐ Angular Nontesting Module Statement
                         ✔ FormsModule @done (7/25/2019, 8:31:13 AM)
                     ☐ Remaining Dependency Statements
-                        ☐ Page 32
-                        ☐ A
+                        ✔ Page 32 @done (7/26/2019, 7:34:34 AM)
+                        ✔ Contact @done (7/26/2019, 7:35:59 AM)
+                        ✔ ContactService @done (7/26/2019, 7:36:02 AM)
+                        ✔ FavoriteIconDirective @done (7/26/2019, 7:36:03 AM)
+                        ✔ InvalidEmailModalComponent @done (7/26/2019, 7:36:05 AM)
+                        ✔ InvalidPhoneNumberModalComponent @done (7/26/2019, 7:36:07 AM)
             ☐ 3.2.2 Setting Up the Tests
             ☐ 3.2.3 Adding the Tests
         Chapter 04 - Testing Directives:

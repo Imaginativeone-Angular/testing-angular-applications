@@ -43,3 +43,30 @@ import { FormsModule } from '@angular/forms';
 // You only need to import one Angular nontesting module FormsModule.
 // You'll need this module because the ContactsEdit uses it for some Angular form controls.
 
+import { Contact, ContactService, FavoriteIconDirective,
+         InvalidEmailModalComponent, InvalidPhoneNumberModalComponent } from '../shared';
+
+import { AppMaterialModule } from '../../app.material.module';
+import { ContactEditComponent } from './contact-edit.component';
+
+// import '../../../material-app-theme.scss'; // There's a problem with finding this file.
+
+describe('ContactEditComponent', () => {
+
+    let fixture: ComponentFixture<ContactEditComponent>;
+    // Stores an instance of the ComponentFixture, which contains methods that help you debug and test a component.
+
+    let component: ContactEditComponent;
+    // Stores an instance of the ContactEditComponent
+
+    let rootElement: DebugElement;
+    // Stores the DebugElement for your component, which is how you'll access its children.
+
+    it('A', () => {
+
+        expect(1).toEqual(1);
+
+    });
+
+});
+// node_modules reverted
