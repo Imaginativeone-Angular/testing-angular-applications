@@ -69,22 +69,25 @@ describe('ContactEditComponent', () => {
             name: 'janet'
         },
 
+        // currently altered contact object
         save: async function(contact: Contact) {
             component.contact = contact;
         },
 
+        // get the contact object from previous alterations
         getContact: async function() {
             component.contact = this.contact;
             return this.contact;
         },
 
+        // currently altered contact object, before save
         updateContact: async function(contact: Contact) {
             component.contact = contact;
         },
 
     };
 
-    it('A', () => {
+    it('Basic Assertion', () => {
         expect(1).toEqual(1);
     });
 
