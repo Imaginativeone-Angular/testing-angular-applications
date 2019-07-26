@@ -44,4 +44,4 @@ Finish the Book, Testing Angular Components:
 
 Today I learned about:
     ☐ Github's automated security feature 072219
-    import '../../../material-app-theme.scss'; // There's a problem with finding this file.
+    import '../../../material-app-theme.scss'; // There's a problem with finding this file. 072619
