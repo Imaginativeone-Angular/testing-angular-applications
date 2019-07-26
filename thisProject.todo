@@ -29,18 +29,66 @@ Finish the Book, Testing Angular Components:
                 ☐ The first beforeEach
                 ☐ The second beforeEach
             ☐ 3.2.3 Adding the Tests
+                ☐ Testing the saveContact Method
+                ☐ Testing the loadContact Method
+                ☐ Testing the updateContact Method
         Chapter 04 - Testing Directives:
-            ☐ A
+            ☐ 4.1 What are Directives?
+                ☐ 4.1.1 Components vs Directives
+            ☐ 4.2 Testing Attribute Directives
+                ☐ 4.2.1 Introducing the favorite icon directive
+                ☐ 4.2.2 Creating tests for FavoriteIconDirective
+                ☐ 4.2.3 Setting up the FavoriteIconDirective test suite
+                ☐ 4.2.4 Creating the FavoriteIconDirective tests
+            ☐ 4.3 Testing structural directives
+                ☐ 4.3.1 Introducing ShowContactsDirective
+                ☐ 4.3.2 Creating your tests for ShowContactsDirective
+                ☐ 4.3.3 Setting up the ShowContactsDirective test suite
+                ☐ 4.3.4 Creating the ShowContactsDirective tests
+            ☐ Summary
         Chapter 05 - Testing Pipes:
-            ☐ A
+            ☐ 5.1 Introducing PhoneNumberPipe
+            ☐ 5.2 Testing PhoneNumberPipe
         Chapter 06 - Testing Services:
+            ☐ 6.1 What are Services?
+            ☐ 6.2 How do services work in Angular?
+            ☐ 6.3 Creating services with Angular CLI
+            ☐ 6.4 Testing PreferencesService
+            ☐ 6.5 Testing Services with Promises
+            ☐ 6.6 Testing HTTP services with observables
+            ☐ Summary
         Chapter 07 - Testing the Router:
+            ☐ 7.1 What is the Angular router?
+            ☐ 7.2 Testing routed components
+            ☐ 7.3 Testing advanced routes
+            ☐ Summary
     Part 2 - End to End Testing:
         Chapter 08 - Getting Started with Protractor:
+            ☐ 8.1 How Protractor works
+            ☐ 8.2 Writing your first Protractor test
+            ☐ 8.3 Installing and running
+            ☐ 8.4 Interacting with elements
+            ☐ 8.5 'by' and 'element' methods
+            ☐ 8.6 Interacting with a list of elements
+            ☐ 8.7 Page objects
+            ☐ Summary
         Chapter 09 - Understanding Timeouts:
+            ☐ 9.1 Kinds of timeouts
+            ☐ 9.2 Testing Pages without Angular
+            ☐ 9.3 Waiting with ExpectedConditions
+            ☐ 9.4 Creating custom conditions
+            ☐ 9.5 Handling long-running tasks
+            ☐ Summary
         Chapter 10 - Advanced Protractor Topics:
+            ☐ 10.1 Configuration file in depth
+            ☐ 10.2 Screenshot testing
+            ☐ 10.3 Experimental debugging features
+            ☐ 10.4 The control flow and debugging with Chrome DevTools
+            Summary
     Part 3 - Continuous Integration:
         Chapter 11 - Continuous Integration:
+            ☐ 11.1 Jenkins
+            ☐ 11.2 CircleCI
 
 Today I learned about:
     ☐ Github's automated security feature 072219
