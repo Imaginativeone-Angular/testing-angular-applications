@@ -123,6 +123,12 @@ describe('ContactEditComponent', () => {
         rootElement = fixture.debugElement;
     });
 
+    // The ContactEditComponent class has several more private helper methods, but you don't need those because testing the
+    // component's public API will exercise them.
+
+    // In general, I shouldn't test private methods; if a method is important enough to be tested, I should consider making
+    // it public.
+
     it('Basic Assertion', () => {
         expect(1).toEqual(1);
     });
