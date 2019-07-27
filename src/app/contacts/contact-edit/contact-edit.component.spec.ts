@@ -116,6 +116,8 @@ describe('ContactEditComponent', () => {
         });
     });
 
+    beforeEach(() => {});
+
     it('Basic Assertion', () => {
         expect(1).toEqual(1);
     });
