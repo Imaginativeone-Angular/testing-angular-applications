@@ -116,11 +116,15 @@ describe('ContactEditComponent', () => {
         });
     });
 
-    beforeEach(() => {});
+    beforeEach(() => {
+        fixture = TestBed.createComponent(ContactEditComponent);
+        component = fixture.componentInstance;
+        fixture.detectChanges();
+        rootElement = fixture.debugElement;
+    });
 
     it('Basic Assertion', () => {
         expect(1).toEqual(1);
     });
 
 });
-// node_modules reverted
