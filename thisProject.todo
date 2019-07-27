@@ -54,6 +54,10 @@ Finish the Book, Testing Angular Components:
                 ☐ 4.3.4 Creating the ShowContactsDirective tests
             ☐ Summary
         Chapter 05 - Testing Pipes:
+            ☐ This Chapter Covers
+                ☐ Testing Pipes
+                ☐ Understanding pure functions versus functions with side effects
+                ☐ Using the transform method
             ☐ 5.1 Introducing PhoneNumberPipe
             ☐ 5.2 Testing PhoneNumberPipe
         Chapter 06 - Testing Services:
@@ -99,4 +103,5 @@ Finish the Book, Testing Angular Components:
 
 Today I learned about:
     ☐ Github's automated security feature 072219
-    import '../../../material-app-theme.scss'; // There's a problem with finding this file. 072619
+    ☐ import '../../../material-app-theme.scss'; // There's a problem with finding this file. 072619
+    ☐ Aspects of the beforeEach() function 072719
