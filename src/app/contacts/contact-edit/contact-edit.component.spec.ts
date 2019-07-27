@@ -86,6 +86,11 @@ describe('ContactEditComponent', () => {
         },
 
     };
+    
+    /**
+     * Two beforeEach()s go next.
+     */
+    beforeEach(() => {});
 
     it('Basic Assertion', () => {
         expect(1).toEqual(1);
