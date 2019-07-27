@@ -34,7 +34,12 @@ Finish the Book, Testing Angular Components:
                 ✔ Testing the saveContact Method @done (7/27/2019, 7:18:41 AM)
                 ☐ Testing the loadContact Method
                 ☐ Testing the updateContact Method
+            ☐ Summary
         Chapter 04 - Testing Directives:
+            ☐ This Chapter Covers
+                ☐ Using the types of directives available in Angular
+                ☐ Testing attribute and structural directives
+                ☐ Using TestMetaData to configure TestBed
             ☐ 4.1 What are Directives?
                 ☐ 4.1.1 Components vs Directives
             ☐ 4.2 Testing Attribute Directives
