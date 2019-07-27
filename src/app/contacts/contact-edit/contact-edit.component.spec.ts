@@ -133,4 +133,15 @@ describe('ContactEditComponent', () => {
         expect(1).toEqual(1);
     });
 
+        // Testing the saveContact method
+    describe('saveContact() test', () => {
+
+        it('should display contact name after contact set', () => {
+
+            expect(1).toEqual(1);
+
+        });
+
+    });
+
 });
