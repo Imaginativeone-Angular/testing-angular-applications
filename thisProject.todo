@@ -31,7 +31,7 @@ Finish the Book, Testing Angular Components:
                     ✔ The second beforeEach will set your instance variables. @done (7/27/2019, 5:58:32 AM)
                 ✔ The second beforeEach @done (7/27/2019, 6:34:36 AM)
             ☐ 3.2.3 Adding the Tests
-                ☐ Testing the saveContact Method
+                ✔ Testing the saveContact Method @done (7/27/2019, 7:18:41 AM)
                 ☐ Testing the loadContact Method
                 ☐ Testing the updateContact Method
         Chapter 04 - Testing Directives:
