@@ -90,7 +90,15 @@ describe('ContactEditComponent', () => {
     /**
      * Two beforeEach()s go next.
      */
-    beforeEach(() => {});
+    beforeEach(() => {
+
+        TestBed.configureTestingModule({
+            declarations: [],
+            imports: [],
+            providers: []
+        });
+
+    });
 
     it('Basic Assertion', () => {
         expect(1).toEqual(1);
