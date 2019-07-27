@@ -129,18 +129,28 @@ describe('ContactEditComponent', () => {
     // In general, I shouldn't test private methods; if a method is important enough to be tested, I should consider making
     // it public.
 
-    it('Basic Assertion', () => {
-        expect(1).toEqual(1);
-    });
-
-        // Testing the saveContact method
+    // Testing the saveContact method
     describe('saveContact() test', () => {
 
-        it('should display contact name after contact set', () => {
+        it('should display contact name after contact set', fakeAsync(() => {
 
-            expect(1).toEqual(1);
+            const contact = {
+                id: 1,
+                name: 'lorace'
+            };
 
-        });
+            component.isLoading = false; // Sets isLoading to false to hide the progress bar
+            component.saveContact(contact);
+
+            fixture.detectChanges();
+
+            const nameInput = rootElement.query(By.css('.contact-name'));
+
+            tick();
+
+            expect(nameInput.nativeElement.value).toBe('lorace');
+
+        }));
 
     });
 
