@@ -93,11 +93,27 @@ describe('ContactEditComponent', () => {
     beforeEach(() => {
 
         TestBed.configureTestingModule({
-            declarations: [],
-            imports: [],
-            providers: []
+            declarations: [
+                ContactEditComponent, 
+                FavoriteIconDirective, 
+                InvalidEmailModalComponent, 
+                InvalidPhoneNumberModalComponent
+            ],
+            imports: [
+                AppMaterialModule, 
+                FormsModule, 
+                NoopAnimationsModule, 
+                RouterTestingModule],
+            providers: [{ 
+                provide: ContactService, useValue: contactServiceStub }]
         });
 
+        TestBed.overrideModule(BrowserDynamicTestingModule, {
+            set: {
+                // These components will be lazily-loaded
+                entryComponents: [InvalidEmailModalComponent, InvalidPhoneNumberModalComponent]
+            }
+        });
     });
 
     it('Basic Assertion', () => {
