@@ -32,8 +32,14 @@ Finish the Book, Testing Angular Components:
                 ✔ The second beforeEach @done (7/27/2019, 6:34:36 AM)
             ☐ 3.2.3 Adding the Tests
                 ✔ Testing the saveContact Method @done (7/27/2019, 7:18:41 AM)
-                ☐ Testing the loadContact Method
+                ✔ Testing the loadContact Method @done (7/28/2019, 7:52:55 AM)
                 ☐ Testing the updateContact Method
+                    ✔ git checkout -b updateContactMethodTest @done (7/28/2019, 7:56:05 AM)
+                    ✔ git push --set-upstream origin updateContactMethodTest @done (7/28/2019, 7:56:07 AM)
+                    ✔ The main difference between this test and the other two tests is that it uses a second assertion. @done (7/28/2019, 8:24:12 AM)
+                    ✔ Experiment with Jasmine Test Code Snippets. @done (7/28/2019, 8:24:00 AM)
+                    ☐ You want to see that the name updates when you call updateContact.
+                    ☐ To do this, call updateContact and pass it newContact.
             ☐ Summary
         Chapter 04 - Testing Directives:
             ☐ This Chapter Covers
@@ -105,3 +111,15 @@ Today I learned about:
     ☐ Github's automated security feature 072219
     ☐ import '../../../material-app-theme.scss'; // There's a problem with finding this file. 072619
     ☐ Aspects of the beforeEach() function 072719
+
+Tools:
+    ☐ Beautify 1.5.0 | Beautify code in place for VS Code | HookyQR
+    ☐ Jasmine Code Snippets 1.0.1 | Code Snippets for JavaScript Jasmine test framework in ES6 syntax
+    ☐ PrintCode 3.0.0 | Added printing function to VS Code | nobuhito
+    ☐ To Do Tasks 0.5.0 | A To Do tasks extension for Visual Studio Code | Sandeep Somavarapu
+        ☐ Fn + F1 + "Printing" => Print a browser page-worth of code
+        ☐ https://marketplace.visualstudio.com/items?itemName=nobuhito.printcode
+    ☐ TypeScript Hero 3.0.0 | Additional toolings for TypeScript | Christophe Buhler
+    ☐ Vetur 0.21.1 | Vue tooling for VS Code | Pine Wu
+    ☐ VS Code Printing Free 0.7.12 | Syntax-coloured line-numbered printing in VS Code | PD Consulting
+    

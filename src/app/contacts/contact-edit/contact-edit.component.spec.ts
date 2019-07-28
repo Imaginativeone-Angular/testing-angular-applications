@@ -146,11 +146,8 @@ describe('ContactEditComponent', () => {
     });
 
     describe('loadContact() test', () => {
-
         it('should load contact', fakeAsync(() => {
-
             component.isLoading = false; // hides the progress bar; not sure when
-
             component.loadContact(); // Executes the loadContact() method
             fixture.detectChanges();
 
@@ -161,9 +158,14 @@ describe('ContactEditComponent', () => {
 
             // The default contact that's loaded has a value of 'janet' for the name property.
             expect(nameInput.nativeElement.value).toBe('janet');
-
         }));
-
     });
+    
+    describe('Name of the group', () => {
 
+        it('should update the contact', () => {});
+        
+    });
 });
+
+// The main difference between this test and the other two tests is that it uses a second assertion.
