@@ -149,14 +149,15 @@ describe('ContactEditComponent', () => {
 
         it('should load contact', fakeAsync(() => {
 
-            component.isLoading = false;
+            component.isLoading = false; // hides the progress bar; not sure when
 
             component.loadContact(); // Executes the loadContact() method
             fixture.detectChanges();
 
+            // This line gets the nameInput form field.
             const nameInput = rootElement.query(By.css('.contact-name'));
 
-            tick();
+            tick(); // forces a time-elapse of 0 milliseconds
 
             // The default contact that's loaded has a value of 'janet' for the name property.
             expect(nameInput.nativeElement.value).toBe('janet');
