@@ -165,7 +165,12 @@ describe('ContactEditComponent', () => {
 
         it('should update the contact', fakeAsync(() => {
 
-            const newContact = {};
+            const newContact = {
+                id: 1, 
+                name: 'delia',
+                email: 'delia@example.com',
+                number: '1234567890'
+            };
 
         }));
         
