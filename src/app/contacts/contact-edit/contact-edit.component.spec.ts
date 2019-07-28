@@ -147,7 +147,21 @@ describe('ContactEditComponent', () => {
 
     describe('loadContact() test', () => {
 
-        it('', () => {});
+        it('should load contact', fakeAsync(() => {
+
+            component.isLoading = false;
+
+            component.loadContact(); // Executes the loadContact() method
+            fixture.detectChanges();
+
+            const nameInput = rootElement.query(By.css('.contact-name'));
+
+            tick();
+
+            // The default contact that's loaded has a value of 'janet' for the name property.
+            expect(nameInput.nativeElement.value).toBe('janet');
+
+        }));
 
     });
 
