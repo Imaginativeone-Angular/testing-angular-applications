@@ -144,4 +144,11 @@ describe('ContactEditComponent', () => {
             expect(nameInput.nativeElement.value).toBe('lorace');
         }));
     });
+
+    describe('loadContact() test', () => {
+
+        it('', () => {});
+
+    });
+
 });
