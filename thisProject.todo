@@ -38,8 +38,10 @@ Finish the Book, Testing Angular Components:
                     ✔ git push --set-upstream origin updateContactMethodTest @done (7/28/2019, 7:56:07 AM)
                     ✔ The main difference between this test and the other two tests is that it uses a second assertion. @done (7/28/2019, 8:24:12 AM)
                     ✔ Experiment with Jasmine Test Code Snippets. @done (7/28/2019, 8:24:00 AM)
-                    ☐ You want to see that the name updates when you call updateContact.
-                    ☐ To do this, call updateContact and pass it newContact.
+                    ✔ You want to see that the name updates when you call updateContact. @done (7/28/2019, 8:51:02 AM)
+                    ✔ To do this, call updateContact and pass it newContact. @done (7/28/2019, 8:51:07 AM)
+                    ☐ Test invalid email
+                    ☐ Page 40 code
             ☐ Summary
         Chapter 04 - Testing Directives:
             ☐ This Chapter Covers
@@ -111,6 +113,7 @@ Today I learned about:
     ☐ Github's automated security feature 072219
     ☐ import '../../../material-app-theme.scss'; // There's a problem with finding this file. 072619
     ☐ Aspects of the beforeEach() function 072719
+    ☐ How to print from VS Code, Running Tests within an Angular Template/UI 072819
 
 Tools:
     ☐ Beautify 1.5.0 | Beautify code in place for VS Code | HookyQR

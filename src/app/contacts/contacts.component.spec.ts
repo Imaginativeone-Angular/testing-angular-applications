@@ -9,12 +9,12 @@ describe('ContactsComponent Tests', () => {
   console.log('contactsComponent', contactsComponent);
 
   // beforeEach() operates BEFORE this code
-  describe('contactsComponent', () => {
-    it('should be null - but this code operates BEFORE the beforeEach() function', () => {
-        // expect(contactsComponent).toBeNull();
-        expect(contactsComponent).not.toBeNull();
-    });
-  });
+  // describe('contactsComponent', () => {
+  //   it('should be null - but this code operates BEFORE the beforeEach() function', () => {
+  //       // expect(contactsComponent).toBeNull();
+  //       expect(contactsComponent).not.toBeNull();
+  //   });
+  // });
 
   beforeEach(() => {
     contactsComponent = new ContactsComponent();

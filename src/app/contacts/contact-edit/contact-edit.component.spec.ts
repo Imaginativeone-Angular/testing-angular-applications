@@ -161,7 +161,8 @@ describe('ContactEditComponent', () => {
         }));
     });
     
-    describe('Name of the group', () => {
+    // The main difference between this test and the other two tests is that it uses a second assertion.
+    describe('updateContact() Tests', () => {
 
         it('should update the contact', fakeAsync(() => {
 
@@ -172,9 +173,29 @@ describe('ContactEditComponent', () => {
                 number: '1234567890'
             };
 
+            component.contact = {
+                id: 2, 
+                name: 'rhonda',
+                email: 'rhonda@example.com',
+                number: '1234567890'                
+            };
+
+            component.isLoading = false;
+            fixture.detectChanges();
+
+            const nameInput = rootElement.query(By.css('.contact-name'));
+
+            tick();
+
+            expect(nameInput.nativeElement.value).toBe('rhonda');
+
+            component.updateContact(newContact);
+            fixture.detectChanges();
+
+            tick(100);
+
+            expect(nameInput.nativeElement.value).toBe('delia');
+
         }));
-        
     });
 });
-
-// The main difference between this test and the other two tests is that it uses a second assertion.
