@@ -131,27 +131,17 @@ describe('ContactEditComponent', () => {
 
     // Testing the saveContact method
     describe('saveContact() test', () => {
-
         it('should display contact name after contact set', fakeAsync(() => {
-
             const contact = {
                 id: 1,
                 name: 'lorace'
             };
-
             component.isLoading = false; // Sets isLoading to false to hide the progress bar
             component.saveContact(contact);
-
             fixture.detectChanges();
-
             const nameInput = rootElement.query(By.css('.contact-name'));
-
             tick();
-
             expect(nameInput.nativeElement.value).toBe('lorace');
-
         }));
-
     });
-
 });
