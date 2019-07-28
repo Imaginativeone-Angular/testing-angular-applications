@@ -163,7 +163,11 @@ describe('ContactEditComponent', () => {
     
     describe('Name of the group', () => {
 
-        it('should update the contact', () => {});
+        it('should update the contact', fakeAsync(() => {
+
+            const newContact = {};
+
+        }));
         
     });
 });
