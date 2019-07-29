@@ -197,5 +197,7 @@ describe('ContactEditComponent', () => {
             expect(nameInput.nativeElement.value).toBe('delia');
 
         }));
+
+        it('should not update the contact if email is invalid', fakeAsync(() => {}));
     });
 });
