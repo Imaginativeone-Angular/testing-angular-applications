@@ -115,6 +115,7 @@ Today I learned about:
     ☐ import '../../../material-app-theme.scss'; // There's a problem with finding this file. 072619
     ☐ Aspects of the beforeEach() function 072719
     ☐ How to print from VS Code, Running Tests within an Angular Template/UI 072819
+    ☐ How to utilize multiple it() functions 072919
 
 Tools:
     ☐ Beautify 1.5.0 | Beautify code in place for VS Code | HookyQR
