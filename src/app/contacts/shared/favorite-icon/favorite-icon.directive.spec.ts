@@ -16,5 +16,19 @@ import { getStarElement, doClassesMatch } from '../../testing';
 class TestComponent {}
 
 describe('Directive: FavoriteIconDirective', () => {
+
+    let fixture: ComponentFixture<any>;
+    const expectedSolidStarList   = constants.classes.SOLID_STAR_STYLE_LIST;
+    const expectedOutlineStarList = constants.classes.OUTLINE_STAR_STYLE_LIST;
     
+    beforeEach(() => {
+        const testModuleMetadata: TestModuleMetadata = {
+            declarations: [FavoriteIconDirective, TestComponent]
+        };
+        fixture = TestBed.configureTestingModule(testModuleMetadata).createComponent(TestComponent);
+        fixture.detectChanges();
+    });
+
+    afterEach(() => { fixture = null; });
+
 });
