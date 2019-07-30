@@ -67,6 +67,7 @@ Finish the Book, Testing Angular Components:
                         ✔ <i [appFavoriteIcon]="contact.favorite" [color]="'blue'"></i> @done (7/30/2019, 7:25:34 AM)
                 ✔ 4.2.2 Creating tests for FavoriteIconDirective @done (7/30/2019, 7:26:31 AM)
                 ☐ 4.2.3 Setting up the FavoriteIconDirective test suite
+                    ☐ I might want to move these files to the NAS, or at least make a backup copy.
                 ☐ 4.2.4 Creating the FavoriteIconDirective tests
             ☐ 4.3 Testing structural directives
                 ☐ 4.3.1 Introducing ShowContactsDirective
