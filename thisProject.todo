@@ -6,6 +6,10 @@ Finish the Book, Testing Angular Components:
         Chapter 02 - Creating Your First Tests:
             ☐ Revisit
         Chapter 03 - Testing Components:
+            ✔ This Chapter Covers @done (7/30/2019, 6:38:14 AM)
+                ✔ Testing Components @done (7/30/2019, 6:38:06 AM)
+                ✔ Knowing the differences between isolated and shallow tests @done (7/30/2019, 6:38:09 AM)
+                ✔ Testing classes and functions @done (7/30/2019, 6:38:12 AM)
             ✔ 3.2.1 Importing the Dependencies @done (7/26/2019, 10:20:12 AM)
                 ✔ Go to Page 30 @done (7/26/2019, 10:20:06 AM)
                 ✔ ContactEditComponent @done (7/26/2019, 10:20:03 AM)
@@ -50,10 +54,18 @@ Finish the Book, Testing Angular Components:
                 ☐ Testing attribute and structural directives
                 ☐ Using TestMetaData to configure TestBed
             ☐ 4.1 What are Directives?
-                ☐ 4.1.1 Components vs Directives
+                ✔ Components @done (7/30/2019, 7:03:17 AM)
+                ✔ Structural Directives @done (7/30/2019, 7:03:19 AM)
+                ✔ Attribute Directives @done (7/30/2019, 7:03:21 AM)
+                ✔ 4.1.1 Components vs Directives @done (7/30/2019, 7:03:24 AM)
             ☐ 4.2 Testing Attribute Directives
-                ☐ 4.2.1 Introducing the favorite icon directive
-                ☐ 4.2.2 Creating tests for FavoriteIconDirective
+                ✔ 4.2.1 Introducing the favorite icon directive @done (7/30/2019, 7:25:49 AM)
+                    ✔ Usage @done (7/30/2019, 7:25:43 AM)
+                        ✔ <element [appFavoriteIcon]="expression"></element> @done (7/30/2019, 7:25:41 AM)
+                    ✔ Adding color as a second parameter @done (7/30/2019, 7:25:39 AM)
+                        ✔ <element [appFavoriteIcon]="expression" [color]="'color name'"></element> @done (7/30/2019, 7:25:37 AM)
+                        ✔ <i [appFavoriteIcon]="contact.favorite" [color]="'blue'"></i> @done (7/30/2019, 7:25:34 AM)
+                ✔ 4.2.2 Creating tests for FavoriteIconDirective @done (7/30/2019, 7:26:31 AM)
                 ☐ 4.2.3 Setting up the FavoriteIconDirective test suite
                 ☐ 4.2.4 Creating the FavoriteIconDirective tests
             ☐ 4.3 Testing structural directives
