@@ -66,9 +66,12 @@ Finish the Book, Testing Angular Components:
                         ✔ <element [appFavoriteIcon]="expression" [color]="'color name'"></element> @done (7/30/2019, 7:25:37 AM)
                         ✔ <i [appFavoriteIcon]="contact.favorite" [color]="'blue'"></i> @done (7/30/2019, 7:25:34 AM)
                 ✔ 4.2.2 Creating tests for FavoriteIconDirective @done (7/30/2019, 7:26:31 AM)
-                ☐ 4.2.3 Setting up the FavoriteIconDirective test suite
-                    ☐ I might want to move these files to the NAS, or at least make a backup copy.
+                ✔ 4.2.3 Setting up the FavoriteIconDirective test suite @done (7/30/2019, 8:19:47 AM)
+                    ✔ imports @done (7/30/2019, 8:19:38 AM)
+                    ✔ TestComponent class @done (7/30/2019, 8:19:40 AM)
+                    ✔ Set up the tests @done (7/30/2019, 8:19:41 AM)
                 ☐ 4.2.4 Creating the FavoriteIconDirective tests
+                    ☐ Describe for when [appFavoriteIcon]="true"
             ☐ 4.3 Testing structural directives
                 ☐ 4.3.1 Introducing ShowContactsDirective
                 ☐ 4.3.2 Creating your tests for ShowContactsDirective
@@ -122,6 +125,9 @@ Finish the Book, Testing Angular Components:
         Chapter 11 - Continuous Integration:
             ☐ 11.1 Jenkins
             ☐ 11.2 CircleCI
+
+General:
+    ☐ I might want to move these files to the NAS, or at least make a backup copy.
 
 Today I learned about:
     ☐ Github's automated security feature 072219

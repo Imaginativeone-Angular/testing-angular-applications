@@ -31,4 +31,16 @@ describe('Directive: FavoriteIconDirective', () => {
 
     afterEach(() => { fixture = null; });
 
+    describe('when favorite icon is set to true', () => {
+
+        let starElement = null;
+        
+        beforeEach(() => {
+            const defaultTrueElementIndex = 0;
+            // where did this function come from?
+            starElement = getStarElement(fixture, defaultTrueElementIndex);
+        });
+        
+    });
+
 });
