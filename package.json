@@ -34,7 +34,7 @@
     "core-js": "2.5.3",
     "diff": "^4.0.1",
     "hammerjs": "2.0.8",
-    "handlebars": "^4.0.14",
+    "handlebars": "^4.5.3",
     "js-yaml": "^3.13.1",
     "rxjs": "6.5.2",
     "sshpk": "^1.16.1",
